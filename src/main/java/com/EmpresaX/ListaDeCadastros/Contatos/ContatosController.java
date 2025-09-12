@@ -1,4 +1,4 @@
-package com.EmpresaX.ListaDeCadastros.Contatos.Controller;
+package com.EmpresaX.ListaDeCadastros.Contatos;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

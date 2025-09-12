@@ -1,4 +1,4 @@
-package com.EmpresaX.ListaDeCadastros.Contatos.Service;
+package com.EmpresaX.ListaDeCadastros.Contatos;
 import com.EmpresaX.ListaDeCadastros.Eventos.EventosModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
