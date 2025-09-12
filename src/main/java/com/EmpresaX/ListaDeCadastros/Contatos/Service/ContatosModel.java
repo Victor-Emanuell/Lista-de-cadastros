@@ -1,4 +1,5 @@
-package com.EmpresaX.ListaDeCadastros;
+package com.EmpresaX.ListaDeCadastros.Contatos.Service;
+import com.EmpresaX.ListaDeCadastros.Eventos.EventosModel;
 import jakarta.persistence.*;
 
 @Entity
@@ -11,6 +12,9 @@ public class ContatosModel {
     private String nome;
     private String email;
     private int idade;
+    @ManyToOne
+    @JoinColumn(name = "eventos_id")
+    private EventosModel evento;
 
     public ContatosModel(){
     }
