@@ -1,4 +1,5 @@
 package com.EmpresaX.ListaDeCadastros.Contatos;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public class ContatosRepository {
+public interface ContatosRepository extends JpaRepository<ContatosModel, Long>{
 }
