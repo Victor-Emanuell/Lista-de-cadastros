@@ -1,4 +1,5 @@
 package com.EmpresaX.ListaDeCadastros.Eventos;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public class EventosRepository {
+public interface EventosRepository extends JpaRepository<EventosModel, Long> {
 }
